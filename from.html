@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+</head>
+
+<body>
+    <h2 align="center">ลงทะเบียน</h2>
+    <form align="center">
+        <div>
+            <label for="f_name">ชื่อจริง</label>
+            <input type="text" name="f_name" placeholder="ป้อนชื่อของคุณ (ก-ฮ)">
+        </div>
+        <div>
+            <label for="l_name">นามสกุล</label>
+            <input type="text" name="l_name" placeholder="ป้อนชื่อของคุณ (ก-ฮ)">
+        </div>
+        <div>
+            <label for="e_mail">อีเมล</label>
+            <input type="text" name="e_mail" placeholder="email@address.com">
+        </div>
+        <div>
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <ladel for="">ที่อยู่</ladel>
+            <textarea name="" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="">อายุ</label>
+            <input type="number" name="age" min="0" max="10" value="2">
+        </div>
+        <div>
+            <label for="">วันเกิด</label>
+            <input type="date" name="birthdate">
+        </div>
+        <div>
+            <label for="">เบอร์โทร</label>
+            <input type="tel" name="tel">
+        </div>
+        <div>
+            <label for="">สีที่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <input type="button" onclick="alert('กดทำไมทำเล่นๆๆๆ!')" value="ปุ่ม!">
+        </div>
+        <div>
+            <label for="">กีฬาที่ชอบ</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> ฟุตบอล</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> ว่ายน้ำ</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> แบตมินตัน</label>
+        </div>
+        <div>
+            <label for="">วันเกิด-เวลาเกิด</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label for="myfile">เลือกไฟล์ :</label>
+            <input type="file" id="myfile" name="myfile">
+        </div>
+        <div>
+            <label for="">เพิ่มรูปภาพ</label>
+            <input type="image" src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/356023070_973656607393219_1471654468026180237_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGzTM20RwzPvMgXmaGLS9YK1DUQyzLCeSnUNRDLMsJ5KaLwlt9lwWAeeT78-HirKi3QMGEXJuHtV-zQeX5qs1M2&_nc_ohc=aEkHIEhAW2MAX-El7vD&_nc_ht=scontent.fbkk10-1.fna&oh=00_AfB2RGqnDHjldkyb0kQ2dO4WBQjsfcg4fJZ3qqY7AAbAGw&oe=64ACE09F" alt="Submit" width="48" height="48">
+        </div>
+        <div>
+            <label for="bdaymonth">วันเกิด (เดือนและปี):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+        </div>
+        <div>
+            <label for="vol">เพิ่มเสียง (ระหว่าง 0 ถึง 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+        </div>
+        <div>
+            <label for="">กรุณาเลือกวิชาที่ต้องการ</label><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </div>
+        <div>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch">
+        </div>
+        <div>
+            <label for="appt">เลือกเวลา :</label>
+            <input type="time" id="appt" name="appt">
+        </div>
+        <div>
+            <label for="homepage">เพิ่มหน้าหลักของคุณ :</label>
+            <input type="url" id="homepage" name="homepage">
+        </div>
+        <div>
+            <label for="week">เลือกสัปดาห์ :</label>
+            <input type="week" id="week" name="week">
+        </div><br>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+
+</html>
